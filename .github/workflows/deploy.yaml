@@ -39,4 +39,4 @@ jobs:
 
       - name: Compile binary
         run: go build -o myapp
-    needs: tests
+    needs: test
